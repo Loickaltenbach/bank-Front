@@ -1,46 +1,82 @@
-# Getting Started with Create React App
+![logo-du-projet](https://raw.githubusercontent.com/Loickaltenbach/bank-Front/src/assets/argentBankLogo.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ArgentBank
+> Projet 13 - Utilisez une API pour un compte utilisateur bancaire avec React
+## Author 
 
-## Available Scripts
+- Loic Kaltenbach
 
-In the project directory, you can run:
+## Technologies
 
-### `npm start`
+- [![Made-with-Javascript](https://img.shields.io/badge/Made%20with-Javascript-green)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+- [![Sassv_1.49.11](https://img.shields.io/badge/Sass-v_1.49.11-ff69b4)](https://sass-lang.com/)
+- [![React-v_18.0.0](https://img.shields.io/badge/React-v_18.0.0-blue)](https://fr.reactjs.org/)
+- [![React-Router-v_6.3.0](https://img.shields.io/badge/React_Router-v_6.3.0-yellow)](https://reactrouter.com/docs/en/v6)
+- [![Redux-Thunk-v_2.4.1](https://img.shields.io/badge/Redux_Thunk-v_2.4.1-red)](https://github.com/reduxjs/redux-thunk)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Environments
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+https://github.com/Loickaltenbach/bank-Front
 
-### `npm test`
+## Resources provided
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API/designs
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [![npm-v_7.24.1](https://img.shields.io/badge/npm-v_7.24.1-orange)](https://docs.npmjs.com/)
+- [![NodeJs-v_16.10.0](https://img.shields.io/badge/NodeJs-v_16.10.0-red)](https://nodejs.org/en/docs/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- VSCode
 
-### `npm run eject`
+### Installing and launching Back-End
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Clone the repository of ArgentBank Back-End:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`git clone https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Inside this back-end repository, install dependencies:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`npm install`
 
-## Learn More
+Launch back-end on port 3001 :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`npm run server`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Populated Database Data
+
+##### Tony Stark
+
+- First Name: `Tony`
+- Last Name: `Stark`
+- Email: `tony@stark.com`
+- Password: `password123`
+
+##### Steve Rogers
+
+- First Name: `Steve`,
+- Last Name: `Rogers`,
+- Email: `steve@rogers.com`,
+- Password: `password456`
+
+#### API Documentation
+
+To learn more about how the API works, once you have started your local environment, you can visit: http://localhost:3001/api-docs
+
+### Installing and launching Front-end
+
+Clone the repository of ArgentBank Front-End:
+
+`git clone https://github.com/Loickaltenbach/bank-Front.git`
+
+Inside this Front-End repository, install dependencies:
+
+`npm install`
+
+Lauch Front-End on port 3000:
+
+`npm start`
+
+Front-End is now rendered at URL `http://localhost:3000`
