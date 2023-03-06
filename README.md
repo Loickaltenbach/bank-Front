@@ -1,4 +1,4 @@
-![logo-du-projet](https://github.com/Loickaltenbach/bank-Front/src/assets/argentBankLogo.png)
+![logo-du-projet](https://github.com/Loickaltenbach/bank-Front/blob/src/assets/argentBankLogo.png?raw=true)
 
 # ArgentBank
 > Projet 13 - Utilisez une API pour un compte utilisateur bancaire avec React
