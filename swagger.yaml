@@ -94,3 +94,33 @@ paths:
             description: Invalid Fields
           '500':
             description: Internal Server Error
+securityDefinitions:
+  Bearer:
+    type: apiKey
+    name: Authorization
+    in: header
+definitions:
+  TransactionsResponse:
+    type: object
+    properties:
+      id:
+        type: number
+      date:
+        type: string
+      description:
+        type: string
+      amount:
+        type: number
+      balance:
+        type: number
+  TransactionResponse:
+    type: object
+    properties:
+      id:
+        type: number
+      TransactionType:
+        type: string
+      Category:
+        type: string
+      Notes:
+        type: string
